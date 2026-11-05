@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#efe7d8">
+  <meta name="description" content="Karolina vs. The World — языки через литературу, карточки и маленькие ежедневные открытия.">
+  <title>Karolina vs. The World — языки через литературу</title>
+  <link rel="icon" type="image/png" href="assets/logo-selected.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="site-ui.css">
+  <link rel="stylesheet" href="brand-refresh.css">
+  <link rel="stylesheet" href="brand-layers.css">
+  <script src="content.js" defer></script>
+  <script src="i18n.js" defer></script>
+  <script src="translation-content.js" defer></script>
+  <script src="reader-text.js" defer></script>
+  <script src="reader-quiz.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Karolina vs. The World — на главную">
+      <img class="brand-emblem" src="assets/logo-selected.png" alt="">
+      <span class="brand-copy"><strong>Karolina vs. The World</strong><small>языки через литературу</small></span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Меню <span aria-hidden="true">☰</span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Главная навигация">
+      <div class="nav-language-links" aria-label="Выбрать направление"><a href="#german" lang="de">Deutsch</a><a href="#english" lang="en">English</a><a href="#georgian" lang="ka">ქართული</a></div>
+      <a href="#languages">Языки</a><a href="#de-library">Тексты Кестнера</a><a href="#de-lectures">Лекции</a><a href="#de-schedule">Даты</a>
+      <button class="nav-cta" type="button" data-booking-open>Записаться на урок <span aria-hidden="true">↗</span></button>
+      <label class="language-picker"><span class="visually-hidden">Язык интерфейса</span><select id="site-language" aria-label="Язык интерфейса"><option value="ru">Русский</option><option value="en">English</option><option value="de">Deutsch</option><option value="ka">ქართული</option><option value="he">עברית</option></select></label>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Читай. Замечай. Запоминай.</p>
+        <h1>Открывай мир<br>слово за <em>словом.</em></h1>
+        <p class="hero-text">Изучай языки через истории, которые хочется дочитать. Карточки, игры и заметки помогают превратить каждую страницу в маленькое открытие.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#languages">Выбрать язык <span>↓</span></a><a class="text-link" href="#de-library">Заглянуть в библиотеку <span>↗</span></a></div>
+        <div class="hero-note"><span class="note-icon">✎</span><span><strong>Твоё путешествие начинается здесь</strong><small>Небольшие уроки. Большие истории.</small></span></div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Слова на немецком, английском и грузинском языках образуют орбиту вокруг раскрытой книги под звёздами">
+        <div class="language-orbit orbit-outer" aria-hidden="true"></div><div class="language-orbit orbit-inner" aria-hidden="true"></div>
+        <span class="orbit-star star-one" aria-hidden="true">✦</span><span class="orbit-star star-two" aria-hidden="true">✧</span><span class="orbit-star star-three" aria-hidden="true">✦</span>
+        <span class="orbit-word word-de" lang="de">Wort</span><span class="orbit-word word-en" lang="en">word</span><span class="orbit-word word-ka" lang="ka">სიტყვა</span>
+        <svg class="orbit-book" viewBox="0 0 120 88" aria-hidden="true"><path d="M8 17c18-7 34-3 52 8v53C42 66 26 62 8 69zM112 17c-18-7-34-3-52 8v53c18-12 34-16 52-9z"/><path d="M17 29c13-4 25 0 35 6M17 39c13-4 25 0 35 6m51-16c-13-4-25 0-35 6m35 4c-13-4-25 0-35 6"/></svg>
+      </div>
+      <div class="hero-index"><span>01</span><i></i><span>03</span></div>
+    </section>
+    <section class="section languages-section" id="languages">
+      <div class="section-heading"><div><p class="eyebrow">Твоя карта мира</p><h2>Выбери язык,<br><em>который зовёт.</em></h2></div><p>Каждый язык — новая полка, новый голос и новые слова, которые станут твоими.</p></div>
+      <div class="language-grid">
+        <article class="language-card card-german"><div class="card-top"><span class="language-code">01 / DE</span><span class="language-monogram" lang="de">DE</span></div><div class="language-illustration german-illo"><span class="illo-star">✳</span><div class="illo-book"><i></i><i></i></div><span class="illo-word">WORT<br>REISE</span></div><div class="language-info"><div><h3>Немецкий</h3><p>Слова из книг и историй</p></div><span class="level-pill">A2 — B1</span></div><div class="card-bottom"><span>Тексты Эриха Кестнера</span><a href="#german" aria-label="Открыть немецкий">↗</a></div></article>
+        <article class="language-card card-english"><div class="card-top"><span class="language-code">02 / EN</span><span class="language-monogram" lang="en">EN</span></div><div class="language-illustration english-illo"><span class="illo-sun"></span><span class="illo-letter">A</span><span class="illo-letter second">B</span><span class="illo-spark">✦</span></div><div class="language-info"><div><h3>Английский</h3><p>Слова, тексты и грамматика</p></div><span class="level-pill">A1 — A2</span></div><div class="card-bottom"><span>Карточки · история · викторина</span><a href="#english" aria-label="Открыть раздел английского">↗</a></div></article>
+        <article class="language-card card-georgian"><div class="card-top"><span class="language-code">03 / KA</span><span class="language-monogram" lang="ka">KA</span></div><div class="language-illustration georgian-illo"><span class="georgian-big">ა</span><span class="georgian-small">გამარჯობა</span><span class="georgian-spark">✳</span></div><div class="language-info"><div><h3>Грузинский</h3><p>Слова для каждого дня</p></div><span class="level-pill">Старт</span></div><div class="card-bottom"><span>Цифры · бытовые слова · игры</span><a href="#georgian" aria-label="Открыть грузинский">↗</a></div></article>
+      </div>
+    </section>
+    <section class="study-section" id="german">
+      <div class="study-intro"><p class="eyebrow light-eyebrow">01 / Немецкий · A2—B1</p><h2>Слова оживают<br>в <em>историях.</em></h2><p>Начинаем с Эриха Кестнера: знакомимся с его биографией и заглядываем в рассказ «Emil hilft Köpfe waschen».</p><a class="text-link reader-entry-link" href="#de-library">Открыть тексты Кестнера <span aria-hidden="true">↓</span></a><div class="study-tabs" role="tablist" aria-label="Режим изучения немецкого"><button class="tab-button active" id="tab-cards" role="tab" aria-selected="true" aria-controls="german-panel" data-mode="cards">Карточки</button><button class="tab-button" id="tab-quiz" role="tab" aria-selected="false" aria-controls="german-panel" data-mode="quiz">Мини-викторина</button></div><div class="text-source"><span>ИСТОЧНИК</span><strong>Erich Kästner · Emil hilft Köpfe waschen</strong><small>Слова взяты из предоставленных страниц</small></div></div>
+      <div class="study-workspace" id="german-panel" role="tabpanel" aria-labelledby="tab-cards">
+        <div class="workspace-top"><div><span class="mini-label" id="german-mode-label">КАРТОЧКИ</span><h3 id="german-session-title">Слова из рассказа</h3></div><div class="progress-wrap"><span id="german-count">01 / 08</span><div class="progress-track"><i id="german-progress"></i></div></div></div>
+        <div class="flashcard-wrap" id="german-card-wrap"><button class="flashcard" id="german-card" aria-label="Открыть перевод карточки"><span class="card-hint">НАЖМИ, ЧТОБЫ ПЕРЕВЕРНУТЬ</span><span class="card-word" id="german-word">der Krug</span><span class="card-pronunciation" id="german-pronunciation">[круг]</span><span class="card-divider"></span><span class="card-answer" id="german-answer" aria-live="polite">кувшин</span><span class="card-example" id="german-example">„Bring mir den Krug mit dem warmen Wasser.“</span><span class="card-example-translation" id="german-example-translation">«Принеси кувшин с тёплой водой».</span><span class="card-turn" aria-hidden="true">↻</span></button></div>
+        <div class="quiz-area" id="german-quiz" hidden><p class="quiz-question" id="german-question"></p><div class="quiz-options" id="german-options"></div><p class="quiz-feedback" id="german-feedback" aria-live="polite"></p></div>
+        <div class="workspace-controls" id="german-card-controls"><button class="icon-button" id="german-prev" aria-label="Предыдущая карточка">←</button><span class="keyboard-hint">ПЕРЕВОРОТ <kbd>ПРОБЕЛ</kbd></span><button class="icon-button" id="german-next" aria-label="Следующая карточка">→</button></div>
+        <div class="workspace-controls quiz-controls" id="german-quiz-controls" hidden><span class="quiz-score" id="german-score">Верно: 0</span><button class="button button-dark" id="german-next-question">Следующий вопрос <span>→</span></button></div>
+      </div>
+    </section>
+    <section class="study-section georgian-section" id="georgian">
+      <div class="study-intro georgian-intro"><p class="eyebrow light-eyebrow">03 / ქართული · Твой старт</p><h2>Грузинский —<br>с <em>первого слова.</em></h2><p>Начни с чисел и выражений, которые встречаются каждый день. Переворачивай карточки или проверь себя в игре на пары.</p><div class="study-tabs" role="tablist" aria-label="Режим изучения грузинского"><button class="tab-button active" id="tab-ka-cards" role="tab" aria-selected="true" aria-controls="georgian-panel" data-mode="cards">Карточки</button><button class="tab-button" id="tab-match" role="tab" aria-selected="false" aria-controls="georgian-panel" data-mode="match">Найди пару</button><button class="tab-button" id="tab-ka-quiz" role="tab" aria-selected="false" aria-controls="georgian-panel" data-mode="quiz">Викторина</button></div><div class="text-source"><span>НАБОР 01</span><strong>Числа и повседневные слова</strong><small>ქართული · произношение · перевод</small></div></div>
+      <div class="study-workspace georgian-workspace" id="georgian-panel" role="tabpanel" aria-labelledby="tab-ka-cards">
+        <div class="workspace-top"><div><span class="mini-label" id="ka-mode-label">КАРТОЧКИ</span><h3 id="ka-session-title">Первые слова</h3></div><div class="progress-wrap"><span id="ka-count">01 / 12</span><div class="progress-track"><i id="ka-progress"></i></div></div></div>
+        <div class="flashcard-wrap" id="ka-card-wrap"><button class="flashcard ka-flashcard" id="ka-card" aria-label="Открыть перевод карточки"><span class="card-hint">НАЖМИ, ЧТОБЫ ПЕРЕВЕРНУТЬ</span><span class="card-word" id="ka-word">ერთი</span><span class="card-pronunciation" id="ka-pronunciation">[эрти]</span><span class="card-divider"></span><span class="card-answer" id="ka-answer">один</span><span class="card-example" id="ka-example">Число 1</span><span class="card-example-translation" id="ka-example-translation">грузинская цифра: 1</span><span class="card-turn" aria-hidden="true">↻</span></button></div>
+        <div class="match-area" id="ka-match" hidden><p class="quiz-question">Соедини слово с переводом</p><div class="match-grid" id="ka-match-grid"></div><p class="quiz-feedback" id="ka-match-feedback" aria-live="polite"></p></div>
+        <div class="quiz-area" id="ka-quiz" hidden><p class="quiz-question" id="ka-question"></p><div class="quiz-options" id="ka-options"></div><p class="quiz-feedback" id="ka-feedback" aria-live="polite"></p></div>
+        <div class="workspace-controls" id="ka-card-controls"><button class="icon-button" id="ka-prev" aria-label="Предыдущая карточка">←</button><span class="keyboard-hint">ПЕРЕВОРОТ <kbd>ПРОБЕЛ</kbd></span><button class="icon-button" id="ka-next" aria-label="Следующая карточка">→</button></div>
+        <div class="workspace-controls" id="ka-match-controls" hidden><button class="button button-dark" id="ka-new-match">Новая подборка <span>↻</span></button></div>
+        <div class="workspace-controls quiz-controls" id="ka-quiz-controls" hidden><span class="quiz-score" id="ka-score">Верно: 0</span><button class="button button-dark" id="ka-next-question">Следующий вопрос <span>→</span></button></div>
+      </div>
+    </section>
+    <section class="study-section english-study-section" id="english">
+      <div class="study-intro english-study-intro"><p class="eyebrow light-eyebrow">02 / Английский · Старт</p><h2>Истории на английском,<br><em>слово за словом.</em></h2><p>Начни с небольшого набора слов и викторины. Библиотека и грамматика доступны в разделах этого направления.</p><div class="study-tabs" role="tablist" aria-label="Режим изучения английского"><button class="tab-button active" id="tab-en-cards" role="tab" aria-selected="true" aria-controls="english-panel" data-mode="cards">Карточки</button><button class="tab-button" id="tab-en-quiz" role="tab" aria-selected="false" aria-controls="english-panel" data-mode="quiz">Викторина</button></div><div class="text-source"><span>НАБОР 01</span><strong>Слова для чтения</strong><small>Английский · произношение · перевод</small></div></div>
+      <div class="study-workspace english-workspace" id="english-panel" role="tabpanel" aria-labelledby="tab-en-cards">
+        <div class="workspace-top"><div><span class="mini-label" id="en-mode-label">КАРТОЧКИ</span><h3 id="en-session-title">Слова для чтения</h3></div><div class="progress-wrap"><span id="en-count">01 / 06</span><div class="progress-track"><i id="en-progress"></i></div></div></div>
+        <div class="flashcard-wrap" id="en-card-wrap"><button class="flashcard" id="en-card" aria-label="Открыть перевод карточки"><span class="card-hint">НАЖМИ, ЧТОБЫ ПЕРЕВЕРНУТЬ</span><span class="card-word" id="en-word">story</span><span class="card-pronunciation" id="en-pronunciation">[ˈstɔːri]</span><span class="card-divider"></span><span class="card-answer" id="en-answer" aria-live="polite">история</span><span class="card-example" id="en-example">A story can travel across languages.</span><span class="card-example-translation" id="en-example-translation">История может путешествовать между языками.</span><span class="card-turn" aria-hidden="true">↻</span></button></div>
+        <div class="quiz-area" id="en-quiz" hidden><p class="quiz-question" id="en-question"></p><div class="quiz-options" id="en-options"></div><p class="quiz-feedback" id="en-feedback" aria-live="polite"></p></div>
+        <div class="workspace-controls" id="en-card-controls"><button class="icon-button" id="en-prev" aria-label="Предыдущая карточка">←</button><span class="keyboard-hint">ПЕРЕВОРОТ <kbd>ПРОБЕЛ</kbd></span><button class="icon-button" id="en-next" aria-label="Следующая карточка">→</button></div>
+        <div class="workspace-controls quiz-controls" id="en-quiz-controls" hidden><span class="quiz-score" id="en-score">Верно: 0</span><button class="button button-dark" id="en-next-question">Следующий вопрос <span>→</span></button></div>
+      </div>
+    </section>
+    <section class="about-section" id="about"><img class="about-emblem" src="assets/logo-selected.png" alt=""><div><p class="eyebrow light-eyebrow">О проекте</p><h2>Karolina vs.<br><em>The World</em></h2><p>Личное путешествие по языкам — через художественную литературу, любопытство и ежедневную практику. Этот сайт — первый черновик будущего мира проекта.</p><a class="brand-options-link" href="logo-options.html">Посмотреть варианты знака проекта <span>↗</span></a></div><div class="about-side"><span>СОЗДАНО ДЛЯ</span><strong>чтения<br>и изучения</strong><i>თბილისი · 2026</i></div></section>
+  </main>
+  <footer class="site-footer"><a class="footer-brand" href="#home"><img src="assets/logo-selected.png" alt="">Karolina vs. The World</a><span>Языки через литературу · Первый выпуск</span><a href="#home">Наверх ↑</a></footer>
+</body>
+</html>

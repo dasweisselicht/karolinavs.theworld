@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">Karolina vs. The World — crowned story cat emblem</title>
+  <circle cx="64" cy="64" r="59" fill="#efe7d8" stroke="#142239" stroke-width="2.5"/>
+  <circle cx="64" cy="64" r="53" fill="none" stroke="#a98242" stroke-width="1"/>
+  <path d="M28 91V53c0-20 16-36 36-36s36 16 36 36v38" fill="none" stroke="#142239" stroke-width="2"/>
+  <path d="M28 53c8-2 12-8 14-16m58 16c-8-2-12-8-14-16" fill="none" stroke="#a98242" stroke-width="1.6"/>
+  <path d="m43 48 8-7 7 7 6-10 7 10 8-7 7 7-1 8H44z" fill="#a98242" stroke="#142239" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M47 72c0-13 7-21 17-21s17 8 17 21v8H47z" fill="#142239"/>
+  <path d="m49 59 2-13 11 8m17 5-2-13-11 8" fill="#142239" stroke="#142239" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M55 69c3-4 6-4 9 0 3-4 6-4 9 0" fill="none" stroke="#efe7d8" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="57" cy="63" r="1.4" fill="#d8b56d"/><circle cx="71" cy="63" r="1.4" fill="#d8b56d"/>
+  <path d="M64 67v3m-5 1 5 2 5-2" fill="none" stroke="#d8b56d" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M47 78c-10-1-12-9-8-15 3-4 8-2 9 1" fill="none" stroke="#142239" stroke-width="3" stroke-linecap="round"/>
+  <path d="M50 81c7 3 21 3 28 0l8 9H42z" fill="#142239"/>
+  <path d="M27 96c12-9 24-11 37-2 13-9 25-7 37 2v9c-12-8-24-8-37 1-13-9-25-9-37-1z" fill="#f7f1e5" stroke="#142239" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M64 94v13m-28-5 18 4m38-4-18 4" stroke="#a98242" stroke-width="1"/>
+  <path d="M35 32h4m50 0h4M30 74h4m60 0h4" stroke="#a98242" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="64" cy="24" r="2" fill="#a98242"/><circle cx="22" cy="64" r="1.8" fill="#a98242"/><circle cx="106" cy="64" r="1.8" fill="#a98242"/>
+</svg>

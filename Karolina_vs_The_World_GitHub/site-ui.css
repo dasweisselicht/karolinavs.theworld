@@ -1,0 +1,78 @@
+/* Per-language navigation, catalogues, lesson dates, and booking form. */
+.language-subnav{display:flex;gap:4px;padding:17px 10.8% 0;background:var(--green);overflow-x:auto}
+.language-subnav.lang-ka{background:#42675d}
+.language-subnav.lang-en{background:#e8dfcf}
+.language-tab{flex:0 0 auto;border:0;border-bottom:2px solid transparent;background:none;color:rgba(255,255,255,.68);padding:12px 15px 11px;font-size:11px;cursor:pointer;white-space:nowrap}
+.lang-en .language-tab{color:#777970}
+.language-tab.active{color:#fff;border-bottom-color:#d78d61}
+.lang-en .language-tab.active{color:var(--ink);border-bottom-color:var(--orange)}
+.language-tab:focus-visible{outline:2px solid #da946d;outline-offset:2px}
+.resource-section{background:#f5f1e8;padding:75px 10.8% 65px;scroll-margin-top:82px}
+.verbs-intro{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #ded9cd;padding:0 0 14px;margin-bottom:17px;color:#777970;font-size:11px}.verbs-intro p{margin:0;font-family:var(--serif);font-size:17px;color:var(--ink)}.verb-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.verb-card{border:1px solid #ded9cd;background:#fbf9f3;padding:15px 17px}.verb-title{display:flex;justify-content:space-between;align-items:baseline;gap:8px;border-bottom:1px solid #e8e2d7;padding-bottom:10px;margin-bottom:4px}.verb-title h3{font:500 22px/1.2 var(--serif);color:#344d3e;margin:0}.verb-title span{font-size:10px;color:#b87351}.verb-table{width:100%;border-collapse:collapse;font-size:12px}.verb-table th,.verb-table td{padding:7px 3px;border-bottom:1px solid #eee9df;text-align:left}.verb-table thead th{font-size:9px;font-weight:500;letter-spacing:.08em;color:#8a897f}.verb-table tbody th{font-weight:400;color:#777970}.verb-table td{font-family:var(--serif);font-size:16px;color:#293f34}.verb-note{margin:20px 0 0;padding:13px 15px;background:#ece7dc;color:#65695f;font-size:11px;line-height:1.7}.verb-card [lang="ka"]{font-family:var(--serif);font-size:18px}
+.resource-heading{display:flex;justify-content:space-between;align-items:end;gap:25px;margin-bottom:31px}
+.resource-heading h2{font-family:var(--serif);font-weight:500;font-size:clamp(35px,4vw,48px);line-height:1.08;letter-spacing:-.04em;margin:0}
+.resource-heading h2 em{color:var(--orange);font-weight:500}
+.resource-heading>p{max-width:300px;color:#777970;font-size:12px;line-height:1.8;margin:0 0 5px}
+.book-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:16px}
+.book-entry{background:#fbf9f3;border:1px solid #e3ded2;padding:18px;display:grid;grid-template-columns:87px 1fr;gap:17px;align-items:start}
+.book-cover{min-height:145px;background:#526758;color:#f1e4c6;display:flex;flex-direction:column;justify-content:space-between;padding:11px;font-family:var(--serif)}
+.book-entry:nth-child(3n+2) .book-cover{background:#bd704e}
+.book-entry:nth-child(3n) .book-cover{background:#d2b78f;color:#35473a}
+.book-cover span{font:9px var(--sans);letter-spacing:.15em}
+.book-cover i{font-style:normal;font-size:29px;text-align:right}
+.book-details h3,.lecture-card h3,.schedule-card h3{font-family:var(--serif);font-weight:500;font-size:19px;line-height:1.25;margin:5px 0}
+.book-author{font-size:10px;color:#818279;margin:0 0 13px}
+.reading-entry{border-top:1px solid #e5e0d4;padding-top:9px}
+.reading-entry summary{cursor:pointer;color:var(--green);font-size:10px;font-weight:700}
+.literary-text{font-family:var(--serif);font-size:14px;line-height:1.8;color:#30352e;margin:12px 0}
+.translation-text{font-size:11px;line-height:1.7;color:#6c7068;border-left:2px solid #c8754f;padding-left:10px}
+.reading-entry small{font-size:9px;color:#919188}
+.empty-state{min-height:160px;border:1px dashed #cfc9ba;padding:28px;text-align:center;display:flex;flex-direction:column;justify-content:center;align-items:center}
+.empty-state>span{font-size:22px;color:#c8754f}
+.empty-state h3{font-family:var(--serif);font-size:19px;font-weight:500;margin:8px 0 3px}
+.empty-state p{max-width:470px;color:#777970;font-size:11px;line-height:1.7;margin:0}
+.lecture-list,.schedule-list{display:grid;gap:10px}
+.lecture-card,.schedule-card{background:#fbf9f3;border:1px solid #e3ded2;padding:19px 21px}
+.lecture-card p{font-size:11px;color:#777970;margin:6px 0}
+.event-date{color:#a66648!important;font-weight:700}
+.schedule-card{display:grid;grid-template-columns:65px 1fr auto;gap:18px;align-items:center}
+.schedule-date{background:#e8dfcf;padding:10px;text-align:center;display:flex;flex-direction:column}
+.schedule-date strong{font-family:var(--serif);font-size:23px;font-weight:500;color:var(--green)}
+.schedule-date span,.schedule-status{font-size:8px;letter-spacing:.1em;text-transform:uppercase;color:#888980}
+.schedule-card p{font-size:10px;color:#777970;margin:5px 0 0}
+.resource-actions{display:flex;align-items:center;gap:17px;margin-top:25px}
+.resource-actions>span{font-size:10px;color:#85867d}
+.resource-actions .button{cursor:pointer}
+.booking-dialog{width:min(530px,calc(100% - 26px));max-height:min(92vh,800px);padding:0;border:1px solid #d8d1c4;background:#f8f5ed;color:var(--ink);box-shadow:0 25px 90px #18231c55}
+.booking-dialog::backdrop{background:#14221bcc;backdrop-filter:blur(3px)}
+.booking-dialog form{padding:27px 30px 25px;display:grid;gap:12px;position:relative}
+.booking-dialog h2{font:500 31px/1.1 var(--serif);margin:-8px 0 0}
+.booking-lead{font-size:11px;line-height:1.6;color:#74776e;margin:0 0 3px}
+.dialog-close{position:absolute;right:17px;top:16px;width:30px;height:30px;border:1px solid #d8d1c4;background:transparent;font-size:20px;cursor:pointer;color:#5a655b}
+.booking-dialog label,.booking-dialog legend{font-size:10px;color:#51584f;font-weight:600}
+.booking-dialog input:not([type=radio]),.booking-dialog select{display:block;width:100%;height:38px;margin-top:5px;border:1px solid #d9d3c7;background:#fffdf8;padding:8px 10px;color:var(--ink);font:11px var(--sans)}
+.booking-dialog fieldset{border:1px solid #ded8cc;padding:9px 12px;display:flex;gap:14px;flex-wrap:wrap}
+.booking-dialog fieldset label{display:flex;align-items:center;gap:5px;font-weight:400}
+.booking-dialog input[type=radio]{accent-color:var(--green)}
+.booking-submit{justify-self:start}
+.booking-note{font-size:9px;color:#818279;margin:0;line-height:1.6}
+.booking-output{font-size:10px;white-space:pre-wrap;color:#3d654b;line-height:1.7}
+.nav-cta{border:0;cursor:pointer;font-family:var(--sans)}
+.visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.language-picker select{height:34px;min-width:108px;padding:0 28px 0 10px;border:1px solid rgba(255,255,255,.35);border-radius:3px;background:#40594c;color:#fff;font:10px var(--sans);cursor:pointer}
+.language-picker select:focus-visible{outline:2px solid #e5ad87;outline-offset:2px}
+.language-picker option{background:#fff;color:#20251f}
+html[dir="rtl"] body{direction:rtl}
+html[dir="rtl"] .brand{direction:ltr}
+html[dir="rtl"] .hero h1,html[dir="rtl"] .section-heading,html[dir="rtl"] .study-intro,html[dir="rtl"] .english-copy,html[dir="rtl"] .resource-heading,html[dir="rtl"] .about-section,html[dir="rtl"] .library-item,html[dir="rtl"] .language-info{text-align:right}
+html[dir="rtl"] .flashcard{direction:ltr;text-align:center}
+html[dir="rtl"] .literary-text{direction:ltr;text-align:left}
+html[dir="rtl"] .translation-text{direction:rtl;text-align:right;border-left:0;border-right:2px solid #c8754f;padding-left:0;padding-right:10px}
+html[dir="rtl"] .resource-actions{flex-direction:row-reverse}
+html[dir="rtl"] .schedule-card{direction:rtl}
+html[dir="rtl"] .site-footer{direction:rtl}
+html[dir="rtl"] .text-source{border-left:0;border-right:1px solid #a56f4f;padding:2px 12px 2px 0}
+html[dir="rtl"] .about-side{border-left:0;border-right:1px solid #708075;padding-left:0;padding-right:20px}
+@media(max-width:900px){.language-subnav{padding-left:7%;padding-right:7%}.resource-section{padding-left:7%;padding-right:7%}}
+@media(max-width:900px){.verb-grid{grid-template-columns:1fr}}
+@media(max-width:680px){.language-subnav{padding:10px 5% 0;gap:0}.language-tab{font-size:10px;padding:10px 11px}.resource-section{padding:55px 6% 48px}.resource-heading{display:block}.resource-heading h2{font-size:38px}.resource-heading>p{margin:13px 0 0}.book-grid{grid-template-columns:1fr}.book-entry{grid-template-columns:75px 1fr;gap:13px;padding:13px}.book-cover{min-height:125px}.schedule-card{grid-template-columns:54px 1fr;gap:12px;padding:13px}.schedule-status{grid-column:2}.resource-actions{align-items:flex-start;flex-direction:column;gap:10px}.booking-dialog form{padding:24px 19px 20px}.booking-dialog fieldset{gap:10px}.nav-cta{align-self:flex-start}.language-picker select{background:#314a3d;border-color:#c5cabe;color:#fff}.language-picker{align-self:flex-start}.verbs-intro{align-items:flex-start;flex-direction:column;gap:5px}.verb-card{padding:13px}}
